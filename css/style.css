@@ -10,22 +10,11 @@ body {
   background: #f1f1f1;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 50px;
-  font-family: inherit;
-}
-
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: white;
+  margin: 5px;
 }
 
 /* Style the topnav links */
@@ -36,6 +25,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 3rem;
 }
 
 /* Change color on hover */
@@ -63,13 +53,6 @@ body {
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
@@ -89,6 +72,10 @@ body {
   border-radius: 5px;
 }
 
+.row {
+  margin-top: 67px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -98,7 +85,8 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -131,7 +119,7 @@ body {
 .title {
   font-family: "Montserrat";
   text-align: center;
-  color: #FFF;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,7 +145,7 @@ h1 {
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 70px;
-  line-height: .75;
+  line-height: 0.75;
   margin: 10px 0;
 }
 
@@ -167,9 +155,9 @@ h1 {
   padding: 7px 10px;
   background-color: #122;
   border-radius: 3px;
-  color: #FFF;
-  -webkit-transition: .35s ease-in-out;
-  transition: .35s ease-in-out;
+  color: #fff;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
   position: absolute;
   left: 15px;
   bottom: 15px;
@@ -177,7 +165,7 @@ h1 {
 }
 
 .white-mode:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #122;
 }
 
@@ -212,7 +200,7 @@ h1 {
 .container {
   text-align: center;
   position: absolute;
-  top: 13%;
+  top: 180px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -273,6 +261,7 @@ h1 {
   }
 }
 
+/*style of the ptag*/
 p {
   border: black;
   border-style: solid double;
