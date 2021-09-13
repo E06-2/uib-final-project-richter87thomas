@@ -1,3 +1,4 @@
-       ###Final Portfolio Project Thomas Richter###
-       
-       The goal of this project was to show different characteristics of the Voice Over professional , so it was used in the top of the page an animation to emphasize this goal, I preferred to use a clean nav bar making it more minimalist, I used in the h1 element an animation in flames, with the goal of being striking to characterize each of the most important topics, with respect to the images I chose to use border radius to reinforce this minimalist idea, and to finish the choice of color of the P element was made to contrast with white, thus calling more attention.
+# Final Portfolio Project Thomas Richter
+
+## Goals
+The goal of this project was to show different characteristics of the Voice Over professional , so it was used in the top of the page an animation to emphasize this goal, I preferred to use a clean nav bar making it more minimalist, I used in the h1 element an animation in flames, with the goal of being striking to characterize each of the most important topics, with respect to the images I chose to use border radius to reinforce this minimalist idea, and to finish the choice of color of the P element was made to contrast with white, thus calling more attention.
